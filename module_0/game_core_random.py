@@ -11,7 +11,7 @@ def game_core_random(number):  # создаём функцию
 		#  увеличиваем счётчик попыток на +1
         count += 1
         predict = (low+high)//2  
-		if number > predict: 
+	if number > predict: 
             low = predict + 1
         elif number < predict: 
             high = predict
